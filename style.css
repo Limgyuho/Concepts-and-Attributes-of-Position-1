@@ -1,0 +1,23 @@
+section {
+    width: 500px;
+    border: 10px solid red;
+}
+section> img{
+    display: block;
+    width: 100%;
+}
+
+section {
+    /*div의 포지션을 유령화 하였을 경우 section의 포지션을 리레이티브로 할경우 유령화가 되지 않고 집을가진다
+    position: relative;*/
+}
+
+section > div{
+    /*유령화*/
+    position: absolute;
+    /*원래의 자리로 이동
+    position: relative;*/
+    background-color: green;
+   width: 50%;
+}
+
